@@ -362,7 +362,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/oldteam2.jpg") no-repeat;
+  background: url("/img/oldteam2.jpg") no-repeat;
   background-size: cover;
   padding-top: 300px;
   padding-bottom: 107px;
