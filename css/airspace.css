@@ -124,7 +124,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 399;
+  font-weight: 400;
   font-size: 55px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -153,9 +153,11 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
+  padding-top: 10px;
+  padding-left: 0px;
   width: 100%;
 }
+
 #intro .section-title {
   margin-bottom: 0px;
 }
@@ -195,10 +197,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 70px 0px;
+  padding: 35px 0px;
   position: relative;
   text-align: center;
   color: #fff;
+  height:235px;
 }
 #call-to-action:before {
   content: "";
@@ -212,23 +215,25 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #1d192c;
   opacity: 0.8;
 }
-#call-to-action h2 {
-  padding-bottom: 20px;
+#call-to-action h3 {
+  margin-top: 0px;
+  padding-bottom: 10px;
   line-height: 33px;
   margin: 0;
-  font-size: 30px;
+  font-size: 28px;
 }
 #call-to-action p {
   font-size: 14px;
   line-height: 1.6;
+  margin-top: 20px;
 }
 #call-to-action .btn-call-to-action {
-  padding: 15px 35px;
+  padding: 15px 25px;
   border: none;
   background-color: #fff;
   font-size: 15px;
   color: #333333;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 /*--
 	Feature Start
@@ -364,8 +369,9 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
   background: url("/img/oldteam2.jpg") no-repeat;
   background-size: cover;
-  padding-top: 300px;
-  padding-bottom: 107px;
+  background-position: center center;
+  padding-top: 185px;
+  padding-bottom: 245px;
   position: relative;
   background-attachment: fixed;
 }
@@ -384,7 +390,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  padding-left: 0px;
   text-align: center;
 }
 #global-header .block h1 {
@@ -392,7 +398,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 55px;
   letter-spacing: 6px;
   padding-bottom: 15px;
-  margin-top: 30;
+  margin-top: 0;
   text-transform: capitalize;
 }
 #global-header .block p {
@@ -826,8 +832,8 @@ font header .navbar-default .navbar-nav li a:hover {
 footer {
   background: #F5F5F5;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 footer p {
   font-size: 13px;
